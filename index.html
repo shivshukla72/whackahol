@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>whackAmole</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<link rel="stylesheet" type="text/css" href="whack.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body style="background: linear-gradient(to right,#4ac29a,#bdfff3); overflow-x: hidden;">
+	<h2>Whack A Mole</h2>
+
+<div id="start">
+	<p>Hit the mole and make a High Score</p>
+   	<button type="button" class="box" onclick="start()"><b> Play Now</b></button>
+ </div>  
+ 
+
+<div id="scorerow">   
+    <span id="show">Score:</span>
+    <span id="highscore">Highscore:</span>
+    <span id="time">Time left:</span>
+</div>
+
+<div id="game">
+   <div class="row">
+   	 <div class="col">
+          <div class="hole"></div>
+          <div class="image"></div>
+          	<!-- <img class="mole" src="mole.png">	 -->
+      </div> 
+
+       <div class="col">
+          <div class="hole"></div>
+          	  <div class="image"></div>
+      </div>   
+
+       <div class="col">
+          <div class="hole"></div>
+            <div class="image"></div>
+      </div>     	 	
+   </div>
+
+   <div class="row">
+   	 <div class="col">
+          <div class="hole"></div>
+          	  <div class="image"></div>
+      </div> 
+
+       <div class="col">
+          <div class="hole"></div>
+          	  <div class="image"></div>
+      </div>   
+
+       <div class="col">
+          <div class="hole"></div>
+            <div class="image"></div>	
+      </div>     	 	
+   </div>
+   	
+ <div class="row">
+   	 <div class="col">
+          <div class="hole"></div>
+          	  <div class="image"></div>
+      </div> 
+
+       <div class="col">
+          <div class="hole"></div>
+            <div class="image"></div>	
+      </div>   
+
+       <div class="col">
+          <div class="hole"></div>
+          	  <div class="image"></div>	
+      </div>     	 	
+   </div>  
+</div>
+
+<div id='gameover'>
+	<span>Game over:</span>
+	<p id="show1"></p>
+	<p id='newscore'></p>
+	<button type="button" class="box" onclick="start()"><b>Restart</b></button>
+</div>
+
+
+</body>
+<script  src="whack.js"></script>
+</html>
