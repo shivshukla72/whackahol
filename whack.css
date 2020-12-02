@@ -31,7 +31,7 @@ h2{
 	margin-right: 3%;
  	font-size: 25px;
 	border-style: none;
-	background-color: #3aa97b;
+	background-color: lightcoral;
 }
 
 
@@ -131,6 +131,12 @@ h2{
 {
 	display: none;
 }
+.mask
+{
+	background-color: rgba(100,50,120,0.5);
+}
+
+
 /*media query*/
 @media screen and (max-width: 680px)
 {
